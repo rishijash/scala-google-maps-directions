@@ -9,7 +9,7 @@ Build awesome things with Google Maps for Scala!
 ### How to Setup
 
 * Download [Scala-Google-Maps-Directions](https://github.com/rishijash/scala-google-maps-directions) from Github
-* Import GoogleMapsClient.scala, GoogleMapsUtil.scala, GoogleMapInput.scala to your project.
+* Import GoogleMapsClient.scala, GoogleMapsUtil.scala, GoogleMapInput.scala, GoogleMapLocation.scala to your project.
 
 ### Example Usage
 
