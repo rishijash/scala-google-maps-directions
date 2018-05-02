@@ -22,7 +22,7 @@ Build awesome things with Google Maps for Scala!
   var mapdatastring = util.get(link)
   val googlemapclient = new GoogleMapsClient(mapdatastring)
   
-//Get User's Messages
+//Perform Operations on Directions
   if(googlemapclient.validResponse()){
     val steps = googlemapclient.getSteps(googlemapclient.getRouteLeg(googlemapclient.getBestRoute()))
     val distance = googlemapclient.getTotalDistanceForBestRoute()
