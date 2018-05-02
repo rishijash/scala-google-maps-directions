@@ -9,18 +9,18 @@ Build awesome things with Google Maps for Scala!
 ### How to Setup
 
 * Download [Scala-Google-Maps-Directions](https://github.com/rishijash/scala-google-maps-directions) from Github
-* Import GoogleMapsClient.scala, GoogleMapsUtil.scala to your project.
+* Import GoogleMapsClient.scala, GoogleMapsUtil.scala, GoogleMapInput.scala to your project.
 
 ### Example Usage
 
 ```
 //Initialize
-  val util = Util
+  val util = GoogleMapsUtil
   util.API_KEY = <your-api-key>
   var googleMapInput = GoogleMapInput(<source address or lat/lon>,<destination address or lat/lon>, <travel mode>, <unix departure time>)
   var link = util.getUrl(googleMapInput)
   var mapdatastring = util.get(link)
-  val googlemapclient = new Client(mapdatastring)
+  val googlemapclient = new GoogleMapsClient(mapdatastring)
   
 //Get User's Messages
   if(googlemapclient.validResponse()){
