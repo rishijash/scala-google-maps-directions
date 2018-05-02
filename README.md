@@ -3,7 +3,7 @@ Build awesome things with Google Maps for Scala!
 ### Getting Started
 
 * Sign up for Developer Account [Google Maps](https://developers.google.com/maps/)
-* Download [Scala-Google-Maps-Directions](https://github.com/rishijash/scala-google-maps-directions) and check out the included example.
+* Download [Scala-Google-Maps-Directions](https://github.com/rishijash/scala-google-maps-directions)
 * View the full [Google Maps API documentation](https://developers.google.com/maps/documentation/) to better familiarize yourself with the API
 
 ### How to Setup
